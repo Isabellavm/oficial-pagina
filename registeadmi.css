@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.navbar{
+   justify-content: center;
+padding-top: 0%;
+}
+.nav a{
+    margin-right: 50px;
+}
+.color{
+    background: #fda2ef;
+    
+}
+.titulo{
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+}
+.row{
+    margin-top: 40px;
+}
+.container-fluid{
+    background-color: #fda2ef;
+}
+
+.fondo{
+    background-color:#ede6f1;
+}
+.container-fluid{
+    background-color: #fda2ef;
+    
+    
+}
+.col{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    
+}
+.fondo h2{
+    font-family: 'Lato', sans-serif;
+    margin-top: 15px;
+    font-size: 40px ;
+}
+
+.text-center.p-3{
+    color: black;
+}
+
+.Form {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 90px;
+  }
+  
+  .Form-title {
+    color: #f50da8;
+    margin: 0 0 15px;  
+    margin-left: 70px;
+    margin-top: 50px;
+    font-size: 50px;
+    
+  }
+  .Form-description {
+    color: rgba(#6d6665, 50%) ;
+  }
+
+  .Form-fields {
+    border-radius: 15px;
+    border: 1px solid #c5c1c0;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 24px 15px;
+    margin-top: 50px;
+  }
+
+  .Control-label {
+    color: #000000;
+    font-weight: bold;
+    transition: color 300ms ease;
+  }
+  
+  .Control-requirements {
+     display: none;
+    background: pink;
+    border-top: none;
+    margin: -14px 0 15px;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 200ms ease;
+    padding: 0 9px;
+  }
+
+  .ControlInput {
+        border-radius: 3px;
+        box-shadow: 0 1px 3px rgba(#c5c1c0, 0%) inset;
+        color: #6d6665;
+        margin: 0.8em 0;
+        border: 1px solid #c5c1c0;
+        padding: 0.6em 0.6em;
+        transition: box-shadow 300ms ease-out;
+        box-shadow: 0 1px 3px rgba(#c5c1c0, 40%) 
+    }      
+
+    .hover {
+        box-shadow: 0 1px 3px rgba(#c5c1c0, 40%) 
+    }
+    .Control-requirements--email,
+.ControlInput--email {
+  order: -1;
+}
+
+.Control-label--email {
+  order: -2;
+}
+
+.ControlInput--password {
+  order: 0;
+  padding-right: 50px;
+}
+
+.Control-label--password {
+  order: -1;
+  margin-bottom: -32px; 
+}
+.Control-label--showPassword {
+  width: 32px;
+  position: relative;
+  top: 52px;
+  left: 100%;
+  text-align: right;
+  margin-left: -36px;
+  
+}
+.Form-submit {
+    border: 1px solid #eb3b61;
+    background-color: #eb3b61;
+    border-radius: 3px;
+    color: #fff;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    pointer-events: none;
+    opacity: 0.6;
+    cursor: default;
+    transition: opacity 300ms ease-out, max-width 150ms ease-out;
+    outline: none;
+    position: relative;
+    margin: auto;
+}
+
+.Button {
+    padding: 10px;
+    user-select: none;
+  }
+  
+  
+  .spinner {
+    animation: dash 2s linear infinite;
+    animation-direction: normal;
+  }
+  .ControlInput--password {
+    
+    -webkit-text-security: disc;
+    -moz-text-security: disc;
+  }
+  .ControlInput--email {
+    order: -1;
+  }
+  
+  .Control-label--email {
+    order: -2;
+  }
+  .imagen{
+    background-color: #fda2ef;
+}

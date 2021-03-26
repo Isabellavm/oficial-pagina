@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.navbar{
+   justify-content: center;
+padding-top: 0%;
+}
+.nav a{
+    margin-right: 50px;
+}
+
+.container-fluid{
+    background-color: #fda2ef;
+   margin-top: 0px;
+}
+
+.fondo{
+    background-color:#ede6f1;
+}
+.card-header{
+    background-color: rgb(252, 118, 200);
+}
+.btn.btn-secondary.btn-lg.float-right{
+    margin-right: 500px;
+}
+
+.text-center.p-3{
+    color: black;
+}
+.imagen{
+    background-color: #fda2ef;
+}
+
+.mb-0{
+    margin-top: 30px;
+}

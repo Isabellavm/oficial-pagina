@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <title>Iniciar sesión</title>
+    <link rel="stylesheet" href="registeadmi.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+</head>
+<body>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <a class="navbar-brand" href="#">
+                  <img src="img/LOGO.png" alt="" width="200px">
+              </a>
+              <div class="navegador" id="navbarTogglerDemo03">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link inicio" href="vistaproductos.html"><b>Inicio</b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link productos" href="catalogo.html"><b>Productos</b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link contactenos" href="contacto.html"><b>Contáctenos</b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link productos" href="registrate.html"><b>Regístrate</b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link productos" href="editar.html"><b>Editar</b></a>
+                </ul>
+              </div>
+            </div>
+          </nav>
+           <body class="fondo"></body>
+          <form action="#login" class="Form">
+            <h1 class="Form-title">Iniciar sesión</h1>
+            <p class="Form-description"><b>Administrador</b></p>
+            <div class="Form-fields">
+                <input type="email"
+                       id="email"
+                       class="ControlInput ControlInput--email"
+                       placeholder=" "
+                       required
+                >
+                <label for="email"
+                       class="Control-label Control-label--email"
+                >Email</label>
+                <div class="Control-requirements Control-requirements--email">
+                  Must be a valid email
+                </div>
+          
+                  
+              
+                  <label for="show-password"
+                         class="Control-label Control-label--showPassword"
+                  >
+                    
+                    <svg xmlns="" viewBox="0 0 48 48" width="32" height="32" class="svg-toggle-password" title="Toggle Password Security">
+                      <title>Hide/Show Password</title>
+                      <path d="M24,9A23.654,23.654,0,0,0,2,24a23.633,23.633,0,0,0,44,0A23.643,23.643,0,0,0,24,9Zm0,25A10,10,0,1,1,34,24,10,10,0,0,1,24,34Zm0-16a6,6,0,1,0,6,6A6,6,0,0,0,24,18Z"/>
+                        <rect x="20.133" y="2.117" height="44" transform="translate(23.536 -8.587) rotate(45)" class="closed-eye"/>
+                        <rect x="22" y="3.984" width="4" height="44" transform="translate(25.403 -9.36) rotate(45)" style="fill:#fff" class="closed-eye"/>
+                    </svg>
+                  </label>
+              
+                  <input type="text"
+                         id="password"
+                         placeholder=" "
+                         autocomplete="off"
+                         autocapitalize="off"
+                         autocorrect="off"
+                         required
+                         pattern=".{6,}"
+                         class="ControlInput ControlInput--password"
+                  >
+          
+                  <label for="password"
+                         class="Control-label Control-label--password"
+                  >Password</label>
+              
+                  <div class="Control-requirements">
+                    Must contain at least 6 characters. We did this for your own sake.
+                  </div>
+                
+                
+                  <button type="submit" class="Button Form-submit">
+                    Acceder
+                    <svg width='26px' height='26px' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" class="Button-spinner">
+                        <rect x="0" y="0" width="100" height="100" fill="none" class="bk"></rect>
+                        <circle cx="50" cy="50" r="40" stroke="#fff" fill="none" stroke-width="18" stroke-linecap="round"></circle>
+                        <circle cx="50" cy="50" r="40" stroke="#e7542b" fill="none" stroke-width="9" stroke-linecap="round" class="spinner"></circle>
+                    </svg>
+                  </button>
+                </form>
+              </div>
+              <section class="">
+                <!-- Footer -->
+                <footer class=" #fda2ef; text-white text-center">
+                  <!-- # #fda2ef -->
+                  <div class="container p-4">
+                    <!--Grid row-->
+                  </div> 
+              <!-- Copyright -->
+              <div class="imagen">
+                  <img src="img/LOGO.png" alt="" width="150px">
+              </div>
+                  <div class="text-center p-3" style="background-color: #fda2ef;">
+                   Copyright © Charm-iv | Todos los derechos reservados
+                  </div>
+                  <!-- Copyright -->
+                </footer>
+                <!-- Footer --> 
+              
+              </section>
+            
+</body>
+</html>
